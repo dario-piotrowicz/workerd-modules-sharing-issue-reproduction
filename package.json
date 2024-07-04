@@ -1,11 +1,13 @@
 {
   "name": "workerd-modules-sharing-repro",
   "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "start": "wrangler dev"
+    "deploy": "wrangler deploy --no-bundle",
+    "dev": "wrangler dev --no-bundle",
+    "start": "wrangler dev --no-bundle",
+    "test": "vitest run"
   },
   "devDependencies": {
-    "wrangler": "^3.60.3"
+    "wrangler": "^3.60.3",
+    "vitest": "^1.6.0"
   }
 }

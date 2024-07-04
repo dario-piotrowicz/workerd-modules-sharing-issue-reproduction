@@ -1,0 +1,1 @@
+# Workerd modules sharing issue reproduction
